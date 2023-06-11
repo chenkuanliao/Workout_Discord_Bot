@@ -21,3 +21,11 @@ class WorkoutData:
                  "laterals" : ["laterals/stand up flies", "5x10", 10, "do it with RMF"],
                  "shrugs": ["shrugs", "3x10", 15, ""] }
 
+class BotFunction:
+    def start_workout():
+        pull = WorkoutData.pull
+
+        print(pull)
+
+
+
